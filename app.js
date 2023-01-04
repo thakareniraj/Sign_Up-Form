@@ -21,9 +21,9 @@ app.post("/",function(req,res){
   var email=req.body.email;
 
   var data = {
-    member : [
+    members : [
       {
-        email_adress : email,
+        email_address : email,
         status : "subscribed",
         merge_fields:{
           FNAME:fName,
